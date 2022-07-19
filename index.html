@@ -14,7 +14,7 @@
     <!--==================== CSS ====================-->
     <link rel="stylesheet" href="src/css/styles.css" />
 
-    <title>Nazira Sabyt | Portfolio Website</title>
+    <title>Nazira Sabyt | Portfolio</title>
   </head>
   <body>
     <!--==================== HEADER ====================-->
@@ -29,24 +29,29 @@
                 <i class="uil uil-estate nav__icon"></i>Home
               </a>
             </li>
-            <li class="nav__item">
+            <!-- <li class="nav__item">
               <a href="#about" class="nav__link">
                 <i class="uil uil-user nav__icon"></i>About
               </a>
-            </li>
+            </li> -->
             <li class="nav__item">
               <a href="#skills" class="nav__link">
                 <i class="uil uil-file-alt nav__icon"></i>Skills
               </a>
             </li>
-            <li class="nav__item">
+            <!-- <li class="nav__item">
               <a href="#services" class="nav__link">
                 <i class="uil uil-briefcase-alt nav__icon"></i>Services
               </a>
-            </li>
+            </li> -->
             <li class="nav__item">
               <a href="#portfolio" class="nav__link">
                 <i class="uil uil-scenery nav__icon"></i>Portfolio
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="uil uil-user nav__icon"></i>About
               </a>
             </li>
             <li class="nav__item">
@@ -59,10 +64,10 @@
         </div>
         <div class="nav__btns">
           <!-- Theme change button -->
-          <i class="uil uil-moon change-theme" id="theme-button"></i>
+          <!-- <i class="uil uil-moon change-theme" id="theme-button"></i>
           <div class="nav__toggle" id="nav-toggle">
             <i class="uil uil-apps"></i>
-          </div>
+          </div> -->
         </div>
       </nav>
     </header>
@@ -75,11 +80,11 @@
           <div class="home__content grid">
             <div class="home__social">
               <a
-                href="https://twitter.com/NaziraSabyt"
+                href="https://www.linkedin.com/in/nazirasabyt/"
                 target="_blank"
                 class="home__social-icon"
               >
-                <i class="uil uil-twitter"></i>
+                <i class="uil uil-linkedin"></i>
               </a>
               <a
                 href="https://github.com/nazirasabyt"
@@ -89,11 +94,11 @@
                 <i class="uil uil-github-alt"></i>
               </a>
               <a
-                href="https://www.linkedin.com/in/nazirasabyt/"
+                href="https://twitter.com/NaziraSabyt"
                 target="_blank"
                 class="home__social-icon"
               >
-                <i class="uil uil-linkedin"></i>
+                <i class="uil uil-twitter"></i>
               </a>
             </div>
 
@@ -121,8 +126,8 @@
                   />
                   <image
                     class="home__blob-img"
-                    x="8"
-                    y="6"
+                    x="0"
+                    y="-4"
                     xlink:href="src/img/perfil.JPG"
                   />
                 </g>
@@ -131,10 +136,10 @@
 
             <div class="home__data">
               <h1 class="home__title">Hi, I'am Nazira</h1>
-              <h3 class="home__subtitle">Frontend developer</h3>
+              <!-- <h3 class="home__subtitle">Frontend developer</h3> -->
               <p class="home__description">
-                Highly enthusiastic web developer , digital nomad producing
-                quality work. Currently in Dubai
+                Highly enthusiastic and resourceful web developer , digital
+                nomad producing high quality work. Currently in Dubai
               </p>
               <a href="#contact" class="button button--flex">
                 Contact Me <i class="uil uil-message button__icon"></i>
@@ -151,65 +156,35 @@
         </div>
       </section>
 
-      <!--==================== ABOUT ====================-->
-      <section class="about section" id="about">
-        <h2 class="section__title">About Me</h2>
-        <span class="section__subtitle">My introduction</span>
-
-        <div class="about__container container grid">
-          <img src="src/img/about.jpg" alt="" class="about__img" />
-
-          <div class="about__data">
-            <p class="about__description">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-              quo eum unde explicabo cum nulla, aperiam accusantium corporis
-              veritatis eius ipsum reiciendis distinctio dolor, impedit aliquid.
-            </p>
-
-            <div class="about__info">
-              <div>
-                <span class="about__info-title">1+</span>
-                <span class="about__info-name"
-                  >Years <br />
-                  experinece</span
-                >
-              </div>
-              <div>
-                <span class="about__info-title">08+</span>
-                <span class="about__info-name"
-                  >Completed <br />
-                  projects</span
-                >
-              </div>
-              <div>
-                <span class="about__info-title">1</span>
-                <span class="about__info-name"
-                  >Companies <br />
-                  worked</span
-                >
-              </div>
-            </div>
-            <div class="about__buttons">
-              <a
-                download=""
-                href="src/pdf/resumeNazira.pdf"
-                class="button button--flex"
-                >Download CV
-                <i class="uil uil-download-alt button__icon"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <!--==================== SKILLS ====================-->
       <section class="skills section" id="skills">
         <h2 class="section__title">Skills</h2>
         <span class="section__subtitle">My technical knowledge</span>
         <div class="skills__container container grid">
           <div>
+            <div class="skills__header">
+              <i class="uil uil-brackets-curly skills__icon"></i>
+              <div>
+                <h1 class="skills_title">Frontend developement</h1>
+                <span class="skills__subtitle">Proficient with:</span>
+
+                <p class="skills-list">
+                  JavaScript (ES6, ES5), Web (HTML, CSS), React, Redux, Next.js,
+                  Git, npm
+                </p>
+              </div>
+            </div>
+            <div class="skills__header">
+              <i class="uil uil-server-network skills__icon"></i>
+              <div>
+                <h1 class="skills_title">Basic backend developement</h1>
+                <span class="skills__subtitle">Familiar with:</span>
+
+                <p class="skills-list">Firestore, MongoDB</p>
+              </div>
+            </div>
             <!--==================== SKILLS  1====================-->
-            <div class="skills__content skills__open">
+            <!-- <div class="skills__content1">
               <div class="skills__header">
                 <i class="uil uil-brackets-curly skills__icon"></i>
                 <div>
@@ -222,7 +197,7 @@
                 <div class="skills__data">
                   <div class="skills__titles">
                     <h3 class="skills__name">HTML</h3>
-                    <span class="skills__number">90%</span>
+                    <span class="skills__number">100%</span>
                   </div>
                   <div class="skills__bar">
                     <span class="skills__percentage skills__html"> </span>
@@ -259,104 +234,10 @@
                   </div>
                 </div>
               </div>
-            </div>
-
-            <!--==================== SKILLS  2====================-->
-            <div class="skills__content skills__close">
-              <div class="skills__header">
-                <i class="uil uil-server-network skills__icon"></i>
-                <div>
-                  <h1 class="skills_title">Backend developement</h1>
-                  <span class="skills__subtitle">More than 1 year</span>
-                </div>
-                <i class="uil uil-angle-down skills__arrow"></i>
-              </div>
-              <div class="skills__list grid">
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">PHP</h3>
-                    <span class="skills__number">80%</span>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__php"> </span>
-                  </div>
-                </div>
-
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Node Js</h3>
-                    <span class="skills__number">80%</span>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__node"> </span>
-                  </div>
-                </div>
-
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Firebase</h3>
-                    <span class="skills__number">90%</span>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__firebase"> </span>
-                  </div>
-                </div>
-
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Python</h3>
-                    <span class="skills__number">45%</span>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__python"> </span>
-                  </div>
-                </div>
-              </div>
-            </div>
+            </div> -->
           </div>
           <div>
             <!--==================== SKILLS  3====================-->
-            <div class="skills__content skills__close">
-              <div class="skills__header">
-                <i class="uil uil-swatchbook skills__icon"></i>
-                <div>
-                  <h1 class="skills_title">Design</h1>
-                  <span class="skills__subtitle">More than 1 year</span>
-                </div>
-                <i class="uil uil-angle-down skills__arrow"></i>
-              </div>
-              <div class="skills__list grid">
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Figma</h3>
-                    <span class="skills__number">60%</span>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__figma"> </span>
-                  </div>
-                </div>
-
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Sketch</h3>
-                    <span class="skills__number">85%</span>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__sketch"> </span>
-                  </div>
-                </div>
-
-                <div class="skills__data">
-                  <div class="skills__titles">
-                    <h3 class="skills__name">Photoshop</h3>
-                    <span class="skills__number">85%</span>
-                  </div>
-                  <div class="skills__bar">
-                    <span class="skills__percentage skills__photoshop"> </span>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -371,60 +252,69 @@
             <div class="portfolio__content grid swiper-slide">
               <img src="src/img/portfolio1.jpg" alt="" class="portfolio__img" />
               <div class="portfolio__data">
-                <h3 class="portfolio__title">Modern Website</h3>
+                <h3 class="portfolio__title">Recipe Manager</h3>
                 <p class="portfolio__description">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo
-                  obcaecati, commodi nemo enim maiores adipisci, sapiente, esse
-                  neque minima quasi nihil rerum magni eum odit perspiciatis
-                  quidem ipsum similique. Esse.
+                  Responsive and dynamic application for managing Recipes and
+                  notes for Chefs. It offers easy form to fill with
+                  <strong>upload image</strong> and
+                  <strong>search</strong> functionalities that can take in data
+                  from the form and <strong>store in folders</strong> and render
+                  back in separate recipe cards. With options to download, edit
+                  and delete specific recipe.
                 </p>
+                <p>Built with React, Material UI</p>
                 <a
-                  href="#"
+                  href="https://recipe-app-bf492.web.app/dashboard"
                   class="button button--flex button--small portfolio__button"
                 >
-                  Demo <i class="uil uil-arrow-right button__icon"></i>
+                  Live Demo <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+              <img src="src/img/portfolio2.jpg" alt="" class="portfolio__img" />
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Meetups</h3>
+                <p class="portfolio__description">
+                  Imitation of existing meetup platform for finding and building
+                  local commuinities, but mainly targeted for Dubai. This
+                  platform can help you meet new people, learn new things and
+                  find support. (Currently working on adding more
+                  functionalities)
+                </p>
+                <p>Built with React, Next.js</p>
+                <a
+                  href="https://meet-n1p2r87sk-nazirasabyt.vercel.app"
+                  class="button button--flex button--small portfolio__button"
+                >
+                  Live Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
                 </a>
               </div>
             </div>
             <!--==================== PORTFOLIO 2 ====================-->
             <div class="portfolio__content grid swiper-slide">
-              <img src="src/img/portfolio2.jpg" alt="" class="portfolio__img" />
+              <img src="src/img/portfolio3.jpg" alt="" class="portfolio__img" />
               <div class="portfolio__data">
-                <h3 class="portfolio__title">Brand Design</h3>
+                <h3 class="portfolio__title">Expense Tracker</h3>
                 <p class="portfolio__description">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo
-                  obcaecati, commodi nemo enim maiores adipisci, sapiente, esse
-                  neque minima quasi nihil rerum magni eum odit perspiciatis
-                  quidem ipsum similique. Esse.
+                  We all love spending but not all of us know how much we have
+                  spent in a month or a year. This application helps to keep all
+                  the expenses in one place and shows the chart of highest
+                  spending month. Fully Responsive and mobile friendly.
+                  (Curently working on adding more functionalities)
                 </p>
+                <p>Built with React</p>
                 <a
-                  href="#"
+                  href="https://expensetrack-786a3.web.app/"
                   class="button button--flex button--small portfolio__button"
                 >
-                  Demo <i class="uil uil-arrow-right button__icon"></i>
+                  Live Demo <i class="uil uil-arrow-right button__icon"></i>
                 </a>
               </div>
             </div>
             <!--==================== PORTFOLIO 3 ====================-->
-            <div class="portfolio__content grid swiper-slide">
-              <img src="src/img/portfolio3.jpg" alt="" class="portfolio__img" />
-              <div class="portfolio__data">
-                <h3 class="portfolio__title">Online Store</h3>
-                <p class="portfolio__description">
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo
-                  obcaecati, commodi nemo enim maiores adipisci, sapiente, esse
-                  neque minima quasi nihil rerum magni eum odit perspiciatis
-                  quidem ipsum similique. Esse.
-                </p>
-                <a
-                  href="#"
-                  class="button button--flex button--small portfolio__button"
-                >
-                  Demo
-                  <i class="uil uil-arrow-right button__icon"></i>
-                </a>
-              </div>
-            </div>
           </div>
           <div class="swiper-button-next">
             <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
@@ -434,6 +324,68 @@
           </div>
 
           <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+        <h2 class="section__title">About Me</h2>
+        <span class="section__subtitle">My introduction</span>
+
+        <div class="about__container container grid">
+          <!-- <img src="#" alt="" class="about__img" /> -->
+
+          <div class="about__data">
+            <p class="about__description">
+              As a travel enthusiast , before tech I worked as a Cabin Crew in
+              Worlds Best Airlines such as Emirates and Qatar. I worked along
+              with greatest people from all over the world, in multicultural and
+              diverse companies. Which helped me build strong communication
+              skills and professional work ethics. In 2020, I took a leap and
+              started to learn coding. I quickly absorbed new concepts and found
+              a huge interest in Web developement. As a colleague, I'm dedicated
+              and resourceful team player with common sense and positive
+              attitude to every challenge.
+
+              <br />
+              <br />
+              When I'm not coding, I'm usually filming videos for Youtube and
+              learning new concepts, or testing out camera gears.
+            </p>
+
+            <div class="about__info">
+              <div>
+                <span class="about__info-title">1+</span>
+                <span class="about__info-name"
+                  >Years <br />
+                  experinece</span
+                >
+              </div>
+              <div>
+                <span class="about__info-title">05+</span>
+                <span class="about__info-name"
+                  >Completed <br />
+                  projects</span
+                >
+              </div>
+              <div>
+                <span class="about__info-title">1</span>
+                <span class="about__info-name"
+                  >Companies <br />
+                  worked</span
+                >
+              </div>
+            </div>
+            <div class="about__buttons">
+              <a
+                download=""
+                href="src/pdf/resumeNazira.pdf"
+                class="button button--flex"
+                >Download CV
+                <i class="uil uil-download-alt button__icon"></i>
+              </a>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -467,7 +419,7 @@
               <!--==================== QUALIFICATION  1====================-->
               <div class="qualification__data">
                 <div>
-                  <h3 class="qualification__title">Lawyer</h3>
+                  <h3 class="qualification__title">Common Law</h3>
                   <span class="qualification__subtitle"
                     >Chygysh University - Bishkek</span
                   >
@@ -491,22 +443,26 @@
                 </div>
 
                 <div>
-                  <h3 class="qualification__title">Web Design</h3>
+                  <h3 class="qualification__title">
+                    The Complete JavaScript Course
+                  </h3>
                   <span class="qualification__subtitle">Udemy</span>
                   <div class="qualification__calendar">
                     <i class="uil uil-calendar-alt"></i>
-                    2022
+                    2021
                   </div>
                 </div>
               </div>
               <!--==================== QUALIFICATION 3====================-->
               <div class="qualification__data">
                 <div>
-                  <h3 class="qualification__title">Web Development</h3>
+                  <h3 class="qualification__title">
+                    React - The Complete Guide React (Router, Redux, Next.js)
+                  </h3>
                   <span class="qualification__subtitle">Udemy</span>
                   <div class="qualification__calendar">
                     <i class="uil uil-calendar-alt"></i>
-                    2022
+                    2021
                   </div>
                 </div>
                 <div>
@@ -524,11 +480,13 @@
                 </div>
 
                 <div>
-                  <h3 class="qualification__title">Master in Ui/Ux</h3>
+                  <h3 class="qualification__title">
+                    Modern HTML & CSS (Including SASS)
+                  </h3>
                   <span class="qualification__subtitle">Udemy</span>
                   <div class="qualification__calendar">
                     <i class="uil uil-calendar-alt"></i>
-                    2022
+                    2021
                   </div>
                 </div>
               </div>
@@ -538,13 +496,13 @@
               <!--==================== QUALIFICATION  1====================-->
               <div class="qualification__data">
                 <div>
-                  <h3 class="qualification__title">Photographer</h3>
-                  <span class="qualification__subtitle"
-                    >Chygysh University - Bishkek</span
-                  >
+                  <h3 class="qualification__title">
+                    Front-End Developer | Intern
+                  </h3>
+                  <span class="qualification__subtitle">bfound | Dubai</span>
                   <div class="qualification__calendar">
                     <i class="uil uil-calendar-alt"></i>
-                    2011- 2017
+                    2021-2022
                   </div>
                 </div>
                 <div>
@@ -562,22 +520,22 @@
                 </div>
 
                 <div>
-                  <h3 class="qualification__title">Web Design</h3>
-                  <span class="qualification__subtitle">Udemy</span>
+                  <h3 class="qualification__title">Marketing Executive</h3>
+                  <span class="qualification__subtitle">Freelance</span>
                   <div class="qualification__calendar">
                     <i class="uil uil-calendar-alt"></i>
-                    2022
+                    2020-2021
                   </div>
                 </div>
               </div>
               <!--==================== QUALIFICATION 3====================-->
               <div class="qualification__data">
                 <div>
-                  <h3 class="qualification__title">Web Development</h3>
-                  <span class="qualification__subtitle">Udemy</span>
+                  <h3 class="qualification__title">Cabin Crew</h3>
+                  <span class="qualification__subtitle">Emirates Airlines</span>
                   <div class="qualification__calendar">
                     <i class="uil uil-calendar-alt"></i>
-                    2022
+                    2015-2020
                   </div>
                 </div>
                 <div>
@@ -591,9 +549,9 @@
       </section>
 
       <!--==================== SERVICES ====================-->
-      <section class="services section" id="services"></section>
+      <!-- <section class="services section" id="services"></section> -->
 
-      <!--==================== PROJECT IN MIND ====================-->
+      <!-- ==================== PROJECT IN MIND ====================
 
       <section class="project section">
         <div class="project__bg">
@@ -612,10 +570,10 @@
             <img src="src/img/project.png" alt="" class="project__img" />
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!--==================== TESTIMONIAL ====================-->
-      <section class="testimonial section"></section>
+      <!-- <section class="testimonial section"></section> -->
 
       <!--==================== CONTACT ME ====================-->
       <section class="contact section" id="contact">
@@ -648,13 +606,13 @@
         <div class="footer__container container grid">
           <div>
             <h1 class="footer__title">Nazira</h1>
-            <span class="footer__subtitle">Frontend Developer</span>
+            <span class="footer__subtitle">Web Developer</span>
           </div>
 
           <ul class="footer__links">
             <li><a href="#skills" class="footer__link">Skills</a></li>
             <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
-            <li><a href="#contact" class="footer__link">Contact Me</a></li>
+            <li><a href="#about" class="footer__link">About </a></li>
           </ul>
 
           <div class="footer__socials">
